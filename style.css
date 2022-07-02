@@ -1,0 +1,47 @@
+/* make sure padding and border are included in the total width and height of the elements  */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #5f7161;
+}
+
+.col-1 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+.col-2 {
+    float: left;
+    width: 75%;
+    padding: 15px;
+  }
+
+#title {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #efead8;
+  width: 100%;
+  padding: 15px;
+}
+
+#notepage {
+  float: left;
+  margin: 0 auto;
+  border: 5px solid #efead8;
+  background-color: #6d8b74;
+  height: 290px;
+  width: 50%;
+  padding: 15px;
+}
+
+#menuButton {
+  float: left;
+  background: #6d8b74;
+  width: 7.5%;
+  height: 50px;
+  border-radius: 50%;
+
+}
